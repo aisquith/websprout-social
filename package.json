@@ -1,0 +1,7 @@
+{
+  "name": "websprout-social",
+  "private": true,
+  "description": "Daily Instagram post images for Websprout, made from real example sites",
+  "scripts": { "post": "node make-post.js" },
+  "dependencies": { "puppeteer": "23.11.1" }
+}
