@@ -1,7 +1,26 @@
 [
     {
         "date": "2026-11-18",
-        "status": "skipped",
-        "reason": "Instagram channel disconnected in Buffer"
+        "type": "Dog Grooming",
+        "category": "pets",
+        "name": "Sunny Paws Grooming",
+        "city": "Tulsa",
+        "headline": "Book your groomer from your phone.",
+        "headlineStyle": "benefit",
+        "angle": "mobile",
+        "captionHook": "If you can text, you can run your business website.",
+        "hashtags": [
+            "#smallbusiness",
+            "#websitedesign",
+            "#doggrooming",
+            "#petbusiness",
+            "#tulsa",
+            "#mobilefirst",
+            "#localbusiness",
+            "#nocode"
+        ],
+        "mode": "default",
+        "status": "pending",
+        "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg"
     }
 ]
