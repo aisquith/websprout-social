@@ -20,7 +20,8 @@
             "#nocode"
         ],
         "mode": "default",
-        "status": "pending",
-        "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg"
+        "status": "draft",
+        "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg",
+        "bufferPostId": "6afcfafb9f3765f6ab2074c2"
     }
 ]
