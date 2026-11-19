@@ -1,27 +1,52 @@
 [
-    {
-        "date": "2026-11-18",
-        "type": "Dog Grooming",
-        "category": "pets",
-        "name": "Sunny Paws Grooming",
-        "city": "Tulsa",
-        "headline": "Book your groomer from your phone.",
-        "headlineStyle": "benefit",
-        "angle": "mobile",
-        "captionHook": "If you can text, you can run your business website.",
-        "hashtags": [
-            "#smallbusiness",
-            "#websitedesign",
-            "#doggrooming",
-            "#petbusiness",
-            "#tulsa",
-            "#mobilefirst",
-            "#localbusiness",
-            "#nocode"
-        ],
-        "mode": "default",
-        "status": "draft",
-        "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg",
-        "bufferPostId": "6afcfafb9f3765f6ab2074c2"
-    }
+  {
+    "date": "2026-11-18",
+    "type": "Dog Grooming",
+    "category": "pets",
+    "name": "Sunny Paws Grooming",
+    "city": "Tulsa",
+    "headline": "Book your groomer from your phone.",
+    "headlineStyle": "benefit",
+    "angle": "mobile",
+    "captionHook": "If you can text, you can run your business website.",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#doggrooming",
+      "#petbusiness",
+      "#tulsa",
+      "#mobilefirst",
+      "#localbusiness",
+      "#nocode"
+    ],
+    "mode": "default",
+    "status": "draft",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg",
+    "bufferPostId": "6afcfafb9f3765f6ab2074c2"
+  },
+  {
+    "date": "2026-11-19",
+    "type": "Landscaping",
+    "category": "trades",
+    "name": "Bright Leaf Landscaping",
+    "city": "Madison",
+    "headline": "A free website for your landscaping business.",
+    "headlineStyle": "benefit",
+    "angle": "free",
+    "captionHook": "Want a website without paying for one first? You can publish free.",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#landscaping",
+      "#lawncare",
+      "#madison",
+      "#localbusiness",
+      "#freewebsite",
+      "#nocode"
+    ],
+    "mode": "default",
+    "status": "draft",
+    "bufferPostId": "6afe4bd74cace847b3885d3e",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-19.jpg"
+  }
 ]
