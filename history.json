@@ -51,7 +51,7 @@
   },
   {
     "date": "2026-11-20",
-    "status": "recovered",
+    "status": "sent",
     "reason": "No library.json in repo; websprout.app /create returned 401 'Please sign in to grow your site.' so no image could be made",
     "recoveredBy": "manual catch-up 2026-11-20 via /example fallback",
     "type": "Plumber",
@@ -61,6 +61,9 @@
     "headline": "Plumbers: your website is ready.",
     "headlineStyle": "trade call-out",
     "angle": "trade-callout",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-20.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-20.jpg",
+    "bufferPostId": "6b009b4be3772ee0cf5d58bc",
+    "captionHook": "Plumbers: your website is ready.",
+    "mode": "example-fallback"
   }
 ]
