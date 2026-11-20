@@ -12,4 +12,8 @@ Nothing here is secret: only images, captions and the script.
 
 Image formats (`--format`): devices, phone, browser, scroll, beforeafter, text. Palettes (`--palette`): forest, cream, coral, navy, sun, sage. `library.json` records the format and palette of each library image.
 
+Wildcards: about 1 post in 5 uses `--format custom --template templates/<concept>.html`, a one-off design the routine writes itself (see `templates/text-thread.html` for the placeholders).
+
+Analytics: `python3 analytics.py metrics.json` merges Buffer's per-post metrics into `history.json` (48h and 7-day snapshots), scores each post (likes + 2x comments + 3x saves + 3x shares + 5x follows per 100 reached, smoothed for tiny reach) and writes `analytics.json` plus the numbers section of `insights.md`, broken down by format, palette, angle, category, hook style, wildcard concept and weekday.
+
 Run locally: `npm install && node make-post.js --name "Rivera Plumbing" --type "Plumber" --city "Austin" --headline "A plumber website in under 10 seconds." --out posts/test.jpg`
