@@ -10,4 +10,6 @@ Images and a log for Websprout's daily Instagram posts. A scheduled Claude routi
 
 Nothing here is secret: only images, captions and the script.
 
+Image formats (`--format`): devices, phone, browser, scroll, beforeafter, text. Palettes (`--palette`): forest, cream, coral, navy, sun, sage. `library.json` records the format and palette of each library image.
+
 Run locally: `npm install && node make-post.js --name "Rivera Plumbing" --type "Plumber" --city "Austin" --headline "A plumber website in under 10 seconds." --out posts/test.jpg`

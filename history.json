@@ -22,7 +22,9 @@
     "mode": "default",
     "status": "draft",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg",
-    "bufferPostId": "6afcfafb9f3765f6ab2074c2"
+    "bufferPostId": "6afcfafb9f3765f6ab2074c2",
+    "format": "devices",
+    "palette": "forest"
   },
   {
     "date": "2026-11-19",
@@ -47,7 +49,9 @@
     "mode": "default",
     "status": "draft",
     "bufferPostId": "6afe4bd74cace847b3885d3e",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-19.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-19.jpg",
+    "format": "devices",
+    "palette": "forest"
   },
   {
     "date": "2026-11-20",
@@ -66,6 +70,8 @@
     "captionHook": "Plumbers: your website is ready.",
     "mode": "example-fallback",
     "libraryId": "l01",
-    "note": "image made fresh via /example; libraryId set so l01 (same business) is not reused"
+    "note": "image made fresh via /example; libraryId set so l01 (same business) is not reused",
+    "format": "devices",
+    "palette": "forest"
   }
 ]
