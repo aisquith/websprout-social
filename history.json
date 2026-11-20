@@ -48,5 +48,10 @@
     "status": "draft",
     "bufferPostId": "6afe4bd74cace847b3885d3e",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-19.jpg"
+  },
+  {
+    "date": "2026-11-20",
+    "status": "failed",
+    "reason": "No library.json in repo; websprout.app /create returned 401 'Please sign in to grow your site.' so no image could be made"
   }
 ]
