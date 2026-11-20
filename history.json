@@ -51,7 +51,16 @@
   },
   {
     "date": "2026-11-20",
-    "status": "failed",
-    "reason": "No library.json in repo; websprout.app /create returned 401 'Please sign in to grow your site.' so no image could be made"
+    "status": "recovered",
+    "reason": "No library.json in repo; websprout.app /create returned 401 'Please sign in to grow your site.' so no image could be made",
+    "recoveredBy": "manual catch-up 2026-11-20 via /example fallback",
+    "type": "Plumber",
+    "category": "trades",
+    "name": "Rivera Plumbing",
+    "city": "Austin",
+    "headline": "Plumbers: your website is ready.",
+    "headlineStyle": "trade call-out",
+    "angle": "trade-callout",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-20.jpg"
   }
 ]

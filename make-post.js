@@ -28,10 +28,58 @@ async function launch() {
   return puppeteer.launch(opts);
 }
 
-(async () => {
-  const r = await fetch('https://websprout.app/create', { method: 'POST', headers: { 'Content-Type': 'application/json', Origin: 'https://websprout.app', 'User-Agent': 'websprout-social-bot' }, body: JSON.stringify({ name, type, city }) });
+// Niche pages on websprout.app/example?n=<slug> (public, same generator). Used when /create is unavailable.
+const NICHES = { 'barbershop':'Barbershop','hair-salon':'Hair Salon','nail-salon':'Nail Salon','tattoo-studio':'Tattoo Studio','restaurant':'Restaurant','cafe':'Cafe','food-truck':'Food Truck','bakery':'Bakery','plumber':'Plumber','electrician':'Electrician','hvac':'HVAC Company','landscaper':'Landscaping Business','cleaning-service':'Cleaning Service','handyman':'Handyman','roofer':'Roofing Company','auto-repair':'Auto Repair Shop','personal-trainer':'Personal Trainer','yoga-studio':'Yoga Studio','photographer':'Photographer','real-estate-agent':'Real Estate Agent','pet-groomer':'Pet Groomer','tutor':'Tutor','wedding-planner':'Wedding Planner','florist':'Florist' };
+const ALIASES = { 'barber':'barbershop','salon':'hair-salon','hair':'hair-salon','nail':'nail-salon','tattoo':'tattoo-studio','coffee':'cafe','café':'cafe','truck':'food-truck','plumbing':'plumber','electric':'electrician','heating':'hvac','cooling':'hvac','air':'hvac','landscaping':'landscaper','lawn':'landscaper','cleaning':'cleaning-service','cleaner':'cleaning-service','maid':'cleaning-service','roofing':'roofer','auto':'auto-repair','mechanic':'auto-repair','trainer':'personal-trainer','fitness':'personal-trainer','gym':'personal-trainer','yoga':'yoga-studio','photography':'photographer','realtor':'real-estate-agent','dog':'pet-groomer','grooming':'pet-groomer','groomer':'pet-groomer','pet':'pet-groomer','tutoring':'tutor','wedding':'wedding-planner','flower':'florist','flowers':'florist','pizza':'restaurant','taco':'restaurant','diner':'restaurant' };
+function nicheFor(t) {
+  const low = t.toLowerCase();
+  for (const slug of Object.keys(NICHES)) if (low === slug || low === NICHES[slug].toLowerCase()) return slug;
+  for (const w of low.split(/[^a-zé]+/)) { if (NICHES[w]) return w; if (ALIASES[w]) return ALIASES[w]; }
+  for (const slug of Object.keys(NICHES)) if (low.includes(slug.split('-')[0])) return slug;
+  return null;
+}
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+async function retry(label, tries, fn) {
+  let last;
+  for (let i = 1; i <= tries; i++) {
+    try { return await fn(); } catch (e) { last = e; if (e.status === 401 || e.status === 403) break; console.error(`[${label}] attempt ${i}/${tries} failed: ${e.message}`); if (i < tries) await sleep(Math.min(30000, 3000 * 2 ** (i - 1))); }
+  }
+  throw last;
+}
+
+// 1) the live builder (personalised AI copy). Optional WS_SESSION cookie for when it requires sign-in.
+async function fromCreate() {
+  const headers = { 'Content-Type': 'application/json', Origin: 'https://websprout.app', 'User-Agent': 'websprout-social-bot' };
+  if (process.env.WS_SESSION) headers.Cookie = process.env.WS_SESSION;
+  const r = await fetch('https://websprout.app/create', { method: 'POST', headers, body: JSON.stringify({ name, type, city }) });
   const j = await r.json().catch(() => ({}));
-  if (!j.html) throw new Error('builder returned no site: ' + r.status + ' ' + JSON.stringify(j).slice(0, 200));
+  if (!j.html) { const e = new Error('builder returned no site: ' + r.status + ' ' + JSON.stringify(j).slice(0, 200)); e.status = r.status; throw e; }
+  return { html: j.html, source: 'create', type };
+}
+// 2) the public niche example, with the placeholder business swapped for ours.
+async function fromExample() {
+  const slug = nicheFor(type) || 'handyman';
+  const r = await fetch('https://websprout.app/example?n=' + slug, { headers: { 'User-Agent': 'websprout-social-bot' } });
+  if (!r.ok) throw new Error('example returned ' + r.status);
+  let html = await r.text();
+  if (!/<html/i.test(html)) throw new Error('example returned no html');
+  const ph = 'Maple Street ' + NICHES[slug];
+  // The hero splits the name over two lines: <span>Maple Street</span></span><span class="ln"><span ..>Plumber
+  const words = esc(name).split(' '), cut = Math.max(1, Math.ceil(words.length / 2));
+  const nicheRe = esc(NICHES[slug]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  html = html.replace(new RegExp('Maple Street((?:\\s*<[^>]+>\\s*)+)' + nicheRe, 'g'), (m, tags) => words.slice(0, cut).join(' ') + tags + (words.slice(cut).join(' ') || ''));
+  html = html.split(ph).join(esc(name)).split(ph.replace(/&/g, '&amp;')).join(esc(name)).split('Springfield').join(esc(city));
+  return { html, source: 'example:' + slug, type: nicheFor(type) ? type : NICHES[slug] };
+}
+
+(async () => {
+  let j;
+  try {
+    j = await retry('create', 3, fromCreate);
+  } catch (e) {
+    console.error('falling back to /example: ' + e.message);
+    j = await retry('example', 4, fromExample);
+  }
   const browser = await launch();
   const shot = async (w, h, scale) => {
     const p = await browser.newPage();
@@ -75,5 +123,5 @@ p.s{font-size:31px;color:rgba(234,242,232,.78);margin-top:22px;line-height:1.35;
   fs.mkdirSync(path.dirname(path.resolve(out)), { recursive: true });
   await p.screenshot({ path: out, type: 'jpeg', quality: 88 });
   await browser.close();
-  console.log(JSON.stringify({ ok: true, out, name, type, city }));
+  console.log(JSON.stringify({ ok: true, out, name, type: j.type, city, source: j.source }));
 })().catch((e) => { console.error(e && e.stack || e); process.exit(1); });
