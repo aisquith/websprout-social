@@ -64,6 +64,8 @@
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-20.jpg",
     "bufferPostId": "6b009b4be3772ee0cf5d58bc",
     "captionHook": "Plumbers: your website is ready.",
-    "mode": "example-fallback"
+    "mode": "example-fallback",
+    "libraryId": "l01",
+    "note": "image made fresh via /example; libraryId set so l01 (same business) is not reused"
   }
 ]
