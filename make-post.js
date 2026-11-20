@@ -7,7 +7,10 @@
 //   node make-post.js --name "Rosie's Bakery" --type "Bakery" --city "Austin" \
 //     --headline "A bakery website in 10 seconds." --sub "..." --format phone --palette coral --out posts/2026-11-18.jpg
 //
-// --format   devices | phone | browser | scroll | beforeafter | text   (default: devices)
+// --format   devices | phone | browser | scroll | beforeafter | text | custom   (default: devices)
+// --template for --format custom: an HTML file (1080x1350 body) that may use {{DESK}} {{PHONE}} {{FULL}} (image data URLs:
+//            1440x900 desktop, 390x844 phone, full-length phone page) {{FULL_H}} {{NAME}} {{TYPE}} {{CITY}} {{HOST}}
+//            {{HEADLINE}} {{SUB}} {{POINT1}}..{{POINT3}} and palette colours {{BG}} {{INK}} {{SOFT}} {{ACCENT}} {{CHIP}}.
 // --palette  forest | cream | coral | navy | sun | sage               (default: picked from the name)
 // --points   for --format text: 3 short lines separated by "|"
 // --eyebrow  small label above the headline (optional)
@@ -26,6 +29,8 @@ const sub = arg('sub', 'Type your business name. Get a real website. Free.');
 const out = arg('out', 'post.jpg');
 const format = arg('format', 'devices');
 const eyebrow = arg('eyebrow', '');
+const template = arg('template', '');
+const tpl = format === 'custom' ? fs.readFileSync(template, 'utf8') : '';
 const before = arg('before', 'Facebook'); // beforeafter: where the business lives online today
 const points = String(arg('points', '')).split('|').map((x) => x.trim()).filter(Boolean);
 const PALETTES = {
@@ -96,6 +101,9 @@ async function fromExample() {
     return chunks.map((c, i) => c + (i < seps.length && chunks[i + 1] ? seps[i] : '')).join('');
   });
   html = html.split(ph).join(esc(name)).split(ph.replace(/&/g, '&amp;')).join(esc(name)).split('Springfield').join(esc(city));
+  // Monogram logos use the placeholder's initials ("MS"): swap in ours.
+  const initials = name.split(/\s+/).filter((w) => /^[A-Za-z0-9]/.test(w)).slice(0, 2).map((w) => w[0].toUpperCase()).join('') || 'W';
+  html = html.replace(/(class="[^"]*mk-mono[^"]*"[^>]*>)MS</g, '$1' + esc(initials) + '<');
   return { html, source: 'example:' + slug, type: nicheFor(type) ? type : NICHES[slug] };
 }
 
@@ -127,11 +135,11 @@ async function fromExample() {
     return { src: b64(b), h };
   };
 
-  const needDesk = ['devices', 'browser', 'beforeafter'].includes(format);
-  const needPhone = ['devices', 'phone', 'text'].includes(format);
+  const needDesk = ['devices', 'browser', 'beforeafter'].includes(format) || tpl.includes('{{DESK}}');
+  const needPhone = ['devices', 'phone', 'text'].includes(format) || tpl.includes('{{PHONE}}');
   const desk = needDesk ? await shot(1440, 900, 1) : '';
   const phone = needPhone ? await shot(390, 844, 2) : '';
-  const full = format === 'scroll' ? await fullPhone() : null;
+  const full = format === 'scroll' || /\{\{FULL(_H)?\}\}/.test(tpl) ? await fullPhone() : null;
   const host = esc(name.toLowerCase().replace(/[^a-z0-9]+/g, '').slice(0, 24)) + '.websprout.app';
 
   const base = `*{box-sizing:border-box;margin:0}
@@ -225,6 +233,14 @@ li b{font-size:30px;font-weight:900;color:${pal.accent};min-width:52px}
 <div class="ph"><img src="${phone}"></div><div class="foot url">Make yours free at <span>websprout.app</span></div>`;
     },
   };
+  // A one-off design written by the routine (wildcard posts). Plain text placeholders are HTML-escaped.
+  layouts.custom = () => {
+    const v = { DESK: desk, PHONE: phone, FULL: full ? full.src : '', FULL_H: full ? String(full.h) : '0', NAME: esc(name), TYPE: esc(type), CITY: esc(city), HOST: host,
+      HEADLINE: esc(headline), SUB: esc(sub), POINT1: esc(points[0] || ''), POINT2: esc(points[1] || ''), POINT3: esc(points[2] || ''),
+      BG: pal.bg, INK: pal.ink, SOFT: pal.soft, ACCENT: pal.accent, CHIP: pal.chip };
+    return tpl.replace(/\{\{([A-Z0-9_]+)\}\}/g, (m, k) => (k in v ? v[k] : m));
+  };
+  if (format === 'custom' && !tpl) throw new Error('--format custom needs --template');
   const card = `<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>${(layouts[format] || layouts.devices)()}</body></html>`;
   const p = await browser.newPage();
   await p.setViewport({ width: 1080, height: 1350, deviceScaleFactor: 1 });

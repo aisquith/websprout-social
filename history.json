@@ -20,11 +20,40 @@
       "#nocode"
     ],
     "mode": "default",
-    "status": "draft",
+    "status": "sent",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-18.jpg",
     "bufferPostId": "6afcfafb9f3765f6ab2074c2",
     "format": "devices",
-    "palette": "forest"
+    "palette": "forest",
+    "metrics": {
+      "reactions": 3,
+      "comments": 1,
+      "engagementRate": 2.44,
+      "views": 362,
+      "shares": 1,
+      "saves": 0,
+      "follows": 2,
+      "reach": 205,
+      "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
+      "ageHours": 50.4
+    },
+    "sentAt": "2026-11-18T17:04:30.338Z",
+    "metrics48h": {
+      "reactions": 3,
+      "comments": 1,
+      "engagementRate": 2.44,
+      "views": 362,
+      "shares": 1,
+      "saves": 0,
+      "follows": 2,
+      "reach": 205,
+      "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
+      "ageHours": 50.4
+    },
+    "score": 8.78,
+    "wildcard": false,
+    "weekday": "Wed",
+    "hookStyle": "relatable"
   },
   {
     "date": "2026-11-19",
@@ -47,11 +76,26 @@
       "#nocode"
     ],
     "mode": "default",
-    "status": "draft",
+    "status": "sent",
     "bufferPostId": "6afe4bd74cace847b3885d3e",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-19.jpg",
     "format": "devices",
-    "palette": "forest"
+    "palette": "forest",
+    "metrics": {
+      "reactions": 2,
+      "comments": 0,
+      "engagementRate": 28.57,
+      "views": 19,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 7,
+      "metricsUpdatedAt": "2026-11-20T19:09:24.761Z",
+      "ageHours": 26.4
+    },
+    "sentAt": "2026-11-19T17:04:48.176Z",
+    "hookStyle": "question",
+    "wildcard": false
   },
   {
     "date": "2026-11-20",
@@ -72,6 +116,8 @@
     "libraryId": "l01",
     "note": "image made fresh via /example; libraryId set so l01 (same business) is not reused",
     "format": "devices",
-    "palette": "forest"
+    "palette": "forest",
+    "hookStyle": "statement",
+    "wildcard": false
   }
 ]

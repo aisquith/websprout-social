@@ -1,0 +1,203 @@
+{
+  "updated": "2026-11-20T19:26+00:00",
+  "measuredPosts": 1,
+  "tentative": true,
+  "accountAverage": {
+    "score": 8.78,
+    "reach": 205
+  },
+  "posts": [
+    {
+      "date": "2026-11-18",
+      "type": "Dog Grooming",
+      "format": "devices",
+      "palette": "forest",
+      "angle": "mobile",
+      "concept": null,
+      "headline": "Book your groomer from your phone.",
+      "captionHook": "If you can text, you can run your business website.",
+      "score": 8.78,
+      "reach": 205,
+      "reactions": 3,
+      "comments": 1,
+      "saves": 0,
+      "shares": 1,
+      "follows": 2,
+      "views": 362
+    }
+  ],
+  "dimensions": {
+    "format": {
+      "rows": [
+        {
+          "value": "devices",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": [
+        "devices",
+        "phone",
+        "browser",
+        "scroll",
+        "beforeafter",
+        "text",
+        "custom"
+      ]
+    },
+    "palette": {
+      "rows": [
+        {
+          "value": "forest",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": [
+        "forest",
+        "cream",
+        "coral",
+        "navy",
+        "sun",
+        "sage"
+      ]
+    },
+    "angle": {
+      "rows": [
+        {
+          "value": "mobile",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": [
+        "speed",
+        "no-designer",
+        "mobile",
+        "free",
+        "trade-callout",
+        "before-after",
+        "leads"
+      ]
+    },
+    "category": {
+      "rows": [
+        {
+          "value": "pets",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": []
+    },
+    "headlineStyle": {
+      "rows": [
+        {
+          "value": "benefit",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": []
+    },
+    "hookStyle": {
+      "rows": [
+        {
+          "value": "relatable",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": [
+        "question",
+        "statement",
+        "number",
+        "relatable",
+        "how-to"
+      ]
+    },
+    "wildcard": {
+      "rows": [
+        {
+          "value": "false",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": []
+    },
+    "concept": {
+      "rows": [],
+      "best": null,
+      "bestForReach": null,
+      "underTested": []
+    },
+    "weekday": {
+      "rows": [
+        {
+          "value": "Wed",
+          "n": 1,
+          "avgScore": 8.78,
+          "avgReach": 205,
+          "follows": 2,
+          "saves": 0,
+          "shares": 1,
+          "comments": 1
+        }
+      ],
+      "best": null,
+      "bestForReach": null,
+      "underTested": []
+    }
+  },
+  "topWildcards": []
+}
