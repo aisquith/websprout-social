@@ -1,0 +1,31 @@
+<!-- Wildcard concept: a receipt where the website line costs $0 -->
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1080px;height:1350px;overflow:hidden;font-family:-apple-system,"Segoe UI",Inter,Arial,sans-serif;background:{{BG}};color:{{INK}};position:relative}
+.tag{position:absolute;left:64px;top:56px;display:flex;align-items:center;gap:10px;font-size:26px;font-weight:700}
+.tag i{width:40px;height:40px;border-radius:11px;background:{{CHIP}};display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:22px}
+h1{position:absolute;left:64px;right:64px;top:116px;font-size:66px;font-weight:850;letter-spacing:-2px;line-height:1.04}
+.rc{position:absolute;left:110px;right:110px;top:340px;background:#fffdf7;color:#222;padding:56px 56px 80px;font-family:"Courier New",monospace;box-shadow:0 30px 70px rgba(0,0,0,.22);transform:rotate(-1.5deg);
+ -webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/28px 100% repeat-x;mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/28px 100% repeat-x}
+.rc h2{text-align:center;font-size:40px;letter-spacing:2px;margin-bottom:6px}
+.rc .sub{text-align:center;font-size:22px;color:#777;margin-bottom:26px}
+.row{display:flex;justify-content:space-between;font-size:34px;padding:18px 0;border-bottom:2px dashed #ddd}
+.row.z{font-weight:800;color:#1c7a3a;background:#e9f7ec;margin:0 -20px;padding:18px 20px}
+.tot{display:flex;justify-content:space-between;font-size:46px;font-weight:800;margin-top:30px}
+.note{text-align:center;font-size:26px;color:#666;margin-top:34px;line-height:1.4}
+.foot{position:absolute;left:64px;bottom:50px;font-size:28px;font-weight:800}.foot span{color:{{ACCENT}}}
+</style>
+<div class="tag"><i>🌱</i>Websprout</div>
+<h1>{{HEADLINE}}</h1>
+<div class="rc">
+  <h2>{{NAME}}</h2>
+  <div class="sub">{{CITY}} · Start-up costs</div>
+  <div class="row"><span>Business cards</span><span>$48.00</span></div>
+  <div class="row"><span>Door sign</span><span>$65.00</span></div>
+  <div class="row"><span>Work truck decal</span><span>$140.00</span></div>
+  <div class="row"><span>Coffee for the grind</span><span>$12.50</span></div>
+  <div class="row z"><span>Website (free plan)</span><span>$0.00</span></div>
+  <div class="tot"><span>TOTAL</span><span>$265.50</span></div>
+  <div class="note">Publish free at {{HOST}}.<br>Example receipt, made-up business.</div>
+</div>
+<div class="foot">Make yours free at <span>websprout.app</span></div>
