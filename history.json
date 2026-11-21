@@ -149,5 +149,36 @@
     "status": "scheduled",
     "bufferPostId": "6b00ef685e993799d8409ac0",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l06.jpg"
+  },
+  {
+    "date": "2026-11-22",
+    "type": "Tile installer",
+    "category": "trades",
+    "name": "Hartwell Tile & Stone",
+    "city": "Denver",
+    "headline": "The line on your start-up receipt that costs $0.",
+    "headlineStyle": "statement",
+    "angle": "free",
+    "format": "custom",
+    "palette": "cream",
+    "wildcard": true,
+    "concept": "receipt-zero",
+    "template": "templates/receipt-zero.html",
+    "captionHook": "Quick quiz: which line on a new business's start-up receipt costs $0?",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#startup",
+      "#tilecontractor",
+      "#denver",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "wildcard",
+    "status": "scheduled",
+    "bufferPostId": "6b01431edd205ed779c76a33",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-22.jpg"
   }
 ]
