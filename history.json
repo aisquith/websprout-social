@@ -119,5 +119,35 @@
     "palette": "forest",
     "hookStyle": "statement",
     "wildcard": false
+  },
+  {
+    "date": "2026-11-21",
+    "libraryId": "l06",
+    "type": "Coffee shop",
+    "category": "food",
+    "name": "Juniper Lane Coffee",
+    "city": "Nashville",
+    "headline": "From a Facebook page to a real website.",
+    "headlineStyle": "statement",
+    "angle": "before-after",
+    "format": "beforeafter",
+    "palette": "navy",
+    "wildcard": false,
+    "captionHook": "Is your coffee shop still just a Facebook page?",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#coffeeshop",
+      "#cafe",
+      "#nashville",
+      "#localbusiness",
+      "#freewebsite",
+      "#nocode"
+    ],
+    "mode": "default",
+    "status": "scheduled",
+    "bufferPostId": "6b00ef685e993799d8409ac0",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l06.jpg"
   }
 ]
