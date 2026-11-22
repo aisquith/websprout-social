@@ -215,5 +215,35 @@
     "status": "scheduled",
     "bufferPostId": "6b01431edd205ed779c76a33",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-22.jpg"
+  },
+  {
+    "date": "2026-11-23",
+    "libraryId": "l03",
+    "type": "Bakery",
+    "category": "food",
+    "name": "Little Fern Bakery",
+    "city": "Portland",
+    "headline": "Looks great on every phone.",
+    "headlineStyle": "statement",
+    "angle": "mobile",
+    "format": "scroll",
+    "palette": "sage",
+    "wildcard": false,
+    "captionHook": "Most of your customers will find you on their phone. What do they see?",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#bakery",
+      "#portland",
+      "#mobilefriendly",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "explore",
+    "status": "scheduled",
+    "bufferPostId": "6b02948b02479690922ebd68",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l03.jpg"
   }
 ]
