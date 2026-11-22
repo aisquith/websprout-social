@@ -28,14 +28,13 @@
     "metrics": {
       "reactions": 3,
       "comments": 1,
-      "engagementRate": 2.44,
-      "views": 362,
+      "views": 363,
       "shares": 1,
       "saves": 0,
       "follows": 2,
-      "reach": 205,
-      "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
-      "ageHours": 50.4
+      "reach": 206,
+      "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
+      "ageHours": 80.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -50,7 +49,7 @@
       "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
       "ageHours": 50.4
     },
-    "score": 8.78,
+    "score": 8.95,
     "wildcard": false,
     "weekday": "Wed",
     "hookStyle": "relatable"
@@ -84,18 +83,30 @@
     "metrics": {
       "reactions": 2,
       "comments": 0,
-      "engagementRate": 28.57,
       "views": 19,
       "shares": 0,
       "saves": 0,
       "follows": 0,
       "reach": 7,
-      "metricsUpdatedAt": "2026-11-20T19:09:24.761Z",
-      "ageHours": 26.4
+      "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
+      "ageHours": 56.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
-    "wildcard": false
+    "wildcard": false,
+    "metrics48h": {
+      "reactions": 2,
+      "comments": 0,
+      "views": 19,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 7,
+      "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
+      "ageHours": 56.0
+    },
+    "score": 10.64,
+    "weekday": "Thu"
   },
   {
     "date": "2026-11-20",
@@ -118,7 +129,19 @@
     "format": "devices",
     "palette": "forest",
     "hookStyle": "statement",
-    "wildcard": false
+    "wildcard": false,
+    "metrics": {
+      "reactions": 0,
+      "comments": 0,
+      "views": 10,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 4,
+      "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
+      "ageHours": 29.9
+    },
+    "sentAt": "2026-11-20T19:11:16.411Z"
   },
   {
     "date": "2026-11-21",
@@ -146,9 +169,21 @@
       "#nocode"
     ],
     "mode": "default",
-    "status": "scheduled",
+    "status": "sent",
     "bufferPostId": "6b00ef685e993799d8409ac0",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l06.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l06.jpg",
+    "metrics": {
+      "reactions": 1,
+      "comments": 0,
+      "views": 9,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 2,
+      "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
+      "ageHours": 8.1
+    },
+    "sentAt": "2026-11-21T17:03:02.697Z"
   },
   {
     "date": "2026-11-22",

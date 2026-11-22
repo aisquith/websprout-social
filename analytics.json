@@ -1,12 +1,30 @@
 {
-  "updated": "2026-11-20T19:26+00:00",
-  "measuredPosts": 1,
+  "updated": "2026-11-22T01:07+00:00",
+  "measuredPosts": 2,
   "tentative": true,
   "accountAverage": {
-    "score": 8.78,
-    "reach": 205
+    "score": 9.39,
+    "reach": 106
   },
   "posts": [
+    {
+      "date": "2026-11-19",
+      "type": "Landscaping",
+      "format": "devices",
+      "palette": "forest",
+      "angle": "free",
+      "concept": null,
+      "headline": "A free website for your landscaping business.",
+      "captionHook": "Want a website without paying for one first? You can publish free.",
+      "score": 10.64,
+      "reach": 7,
+      "reactions": 2,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "views": 19
+    },
     {
       "date": "2026-11-18",
       "type": "Dog Grooming",
@@ -16,14 +34,14 @@
       "concept": null,
       "headline": "Book your groomer from your phone.",
       "captionHook": "If you can text, you can run your business website.",
-      "score": 8.78,
-      "reach": 205,
+      "score": 8.95,
+      "reach": 206,
       "reactions": 3,
       "comments": 1,
       "saves": 0,
       "shares": 1,
       "follows": 2,
-      "views": 362
+      "views": 363
     }
   ],
   "dimensions": {
@@ -31,19 +49,18 @@
       "rows": [
         {
           "value": "devices",
-          "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "n": 2,
+          "avgScore": 9.79,
+          "avgReach": 106,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
         }
       ],
-      "best": null,
-      "bestForReach": null,
+      "best": "devices",
+      "bestForReach": "devices",
       "underTested": [
-        "devices",
         "phone",
         "browser",
         "scroll",
@@ -56,19 +73,18 @@
       "rows": [
         {
           "value": "forest",
-          "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "n": 2,
+          "avgScore": 9.79,
+          "avgReach": 106,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
         }
       ],
-      "best": null,
-      "bestForReach": null,
+      "best": "forest",
+      "bestForReach": "forest",
       "underTested": [
-        "forest",
         "cream",
         "coral",
         "navy",
@@ -79,10 +95,20 @@
     "angle": {
       "rows": [
         {
+          "value": "free",
+          "n": 1,
+          "avgScore": 10.64,
+          "avgReach": 7,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "mobile",
           "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "avgScore": 8.95,
+          "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -104,10 +130,20 @@
     "category": {
       "rows": [
         {
+          "value": "trades",
+          "n": 1,
+          "avgScore": 10.64,
+          "avgReach": 7,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "pets",
           "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "avgScore": 8.95,
+          "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -122,26 +158,36 @@
       "rows": [
         {
           "value": "benefit",
-          "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "n": 2,
+          "avgScore": 9.79,
+          "avgReach": 106,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
         }
       ],
-      "best": null,
-      "bestForReach": null,
+      "best": "benefit",
+      "bestForReach": "benefit",
       "underTested": []
     },
     "hookStyle": {
       "rows": [
         {
+          "value": "question",
+          "n": 1,
+          "avgScore": 10.64,
+          "avgReach": 7,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "relatable",
           "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "avgScore": 8.95,
+          "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -162,17 +208,17 @@
       "rows": [
         {
           "value": "false",
-          "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "n": 2,
+          "avgScore": 9.79,
+          "avgReach": 106,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
         }
       ],
-      "best": null,
-      "bestForReach": null,
+      "best": "false",
+      "bestForReach": "false",
       "underTested": []
     },
     "concept": {
@@ -184,10 +230,20 @@
     "weekday": {
       "rows": [
         {
+          "value": "Thu",
+          "n": 1,
+          "avgScore": 10.64,
+          "avgReach": 7,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "Wed",
           "n": 1,
-          "avgScore": 8.78,
-          "avgReach": 205,
+          "avgScore": 8.95,
+          "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
