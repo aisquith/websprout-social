@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-22T01:07+00:00",
-  "measuredPosts": 2,
+  "updated": "2026-11-23T01:07+00:00",
+  "measuredPosts": 3,
   "tentative": true,
   "accountAverage": {
-    "score": 9.39,
-    "reach": 106
+    "score": 9.22,
+    "reach": 72
   },
   "posts": [
     {
@@ -16,7 +16,7 @@
       "concept": null,
       "headline": "A free website for your landscaping business.",
       "captionHook": "Want a website without paying for one first? You can publish free.",
-      "score": 10.64,
+      "score": 10.48,
       "reach": 7,
       "reactions": 2,
       "comments": 0,
@@ -34,7 +34,7 @@
       "concept": null,
       "headline": "Book your groomer from your phone.",
       "captionHook": "If you can text, you can run your business website.",
-      "score": 8.95,
+      "score": 8.89,
       "reach": 206,
       "reactions": 3,
       "comments": 1,
@@ -42,6 +42,24 @@
       "shares": 1,
       "follows": 2,
       "views": 363
+    },
+    {
+      "date": "2026-11-20",
+      "type": "Plumber",
+      "format": "devices",
+      "palette": "forest",
+      "angle": "trade-callout",
+      "concept": null,
+      "headline": "Plumbers: your website is ready.",
+      "captionHook": "Plumbers: your website is ready.",
+      "score": 8.86,
+      "reach": 4,
+      "reactions": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "views": 10
     }
   ],
   "dimensions": {
@@ -49,9 +67,9 @@
       "rows": [
         {
           "value": "devices",
-          "n": 2,
-          "avgScore": 9.79,
-          "avgReach": 106,
+          "n": 3,
+          "avgScore": 9.41,
+          "avgReach": 72,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -73,9 +91,9 @@
       "rows": [
         {
           "value": "forest",
-          "n": 2,
-          "avgScore": 9.79,
-          "avgReach": 106,
+          "n": 3,
+          "avgScore": 9.41,
+          "avgReach": 72,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -97,7 +115,7 @@
         {
           "value": "free",
           "n": 1,
-          "avgScore": 10.64,
+          "avgScore": 10.48,
           "avgReach": 7,
           "follows": 0,
           "saves": 0,
@@ -107,12 +125,22 @@
         {
           "value": "mobile",
           "n": 1,
-          "avgScore": 8.95,
+          "avgScore": 8.89,
           "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
+        },
+        {
+          "value": "trade-callout",
+          "n": 1,
+          "avgScore": 8.86,
+          "avgReach": 4,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
         }
       ],
       "best": null,
@@ -131,9 +159,9 @@
       "rows": [
         {
           "value": "trades",
-          "n": 1,
-          "avgScore": 10.64,
-          "avgReach": 7,
+          "n": 2,
+          "avgScore": 9.67,
+          "avgReach": 6,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -142,7 +170,7 @@
         {
           "value": "pets",
           "n": 1,
-          "avgScore": 8.95,
+          "avgScore": 8.89,
           "avgReach": 206,
           "follows": 2,
           "saves": 0,
@@ -150,8 +178,8 @@
           "comments": 1
         }
       ],
-      "best": null,
-      "bestForReach": null,
+      "best": "trades",
+      "bestForReach": "trades",
       "underTested": []
     },
     "headlineStyle": {
@@ -159,12 +187,22 @@
         {
           "value": "benefit",
           "n": 2,
-          "avgScore": 9.79,
+          "avgScore": 9.69,
           "avgReach": 106,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
+        },
+        {
+          "value": "trade call-out",
+          "n": 1,
+          "avgScore": 8.86,
+          "avgReach": 4,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
         }
       ],
       "best": "benefit",
@@ -176,7 +214,7 @@
         {
           "value": "question",
           "n": 1,
-          "avgScore": 10.64,
+          "avgScore": 10.48,
           "avgReach": 7,
           "follows": 0,
           "saves": 0,
@@ -186,12 +224,22 @@
         {
           "value": "relatable",
           "n": 1,
-          "avgScore": 8.95,
+          "avgScore": 8.89,
           "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
+        },
+        {
+          "value": "statement",
+          "n": 1,
+          "avgScore": 8.86,
+          "avgReach": 4,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
         }
       ],
       "best": null,
@@ -208,9 +256,9 @@
       "rows": [
         {
           "value": "false",
-          "n": 2,
-          "avgScore": 9.79,
-          "avgReach": 106,
+          "n": 3,
+          "avgScore": 9.41,
+          "avgReach": 72,
           "follows": 2,
           "saves": 0,
           "shares": 1,
@@ -232,7 +280,7 @@
         {
           "value": "Thu",
           "n": 1,
-          "avgScore": 10.64,
+          "avgScore": 10.48,
           "avgReach": 7,
           "follows": 0,
           "saves": 0,
@@ -242,12 +290,22 @@
         {
           "value": "Wed",
           "n": 1,
-          "avgScore": 8.95,
+          "avgScore": 8.89,
           "avgReach": 206,
           "follows": 2,
           "saves": 0,
           "shares": 1,
           "comments": 1
+        },
+        {
+          "value": "Fri",
+          "n": 1,
+          "avgScore": 8.86,
+          "avgReach": 4,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
         }
       ],
       "best": null,
