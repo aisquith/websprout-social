@@ -270,5 +270,35 @@
     "status": "scheduled",
     "bufferPostId": "6b02948b02479690922ebd68",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l03.jpg"
+  },
+  {
+    "date": "2026-11-24",
+    "libraryId": "l09",
+    "type": "Yoga studio",
+    "category": "beauty",
+    "name": "Willow Flow Yoga",
+    "city": "San Diego",
+    "headline": "Still waiting on a web designer?",
+    "headlineStyle": "question",
+    "angle": "no-designer",
+    "format": "browser",
+    "palette": "coral",
+    "wildcard": false,
+    "captionHook": "Your studio can have a real website before your next class starts.",
+    "hookStyle": "statement",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#yogastudio",
+      "#sandiego",
+      "#nodesigner",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "default",
+    "status": "scheduled",
+    "bufferPostId": "6b03e66cf7628650812e0eb7",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l09.jpg"
   }
 ]
