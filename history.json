@@ -28,13 +28,14 @@
     "metrics": {
       "reactions": 3,
       "comments": 1,
+      "engagementRate": 2.43,
       "views": 363,
       "shares": 1,
       "saves": 0,
       "follows": 2,
       "reach": 206,
-      "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
-      "ageHours": 104.0
+      "metricsUpdatedAt": "2026-11-23T19:11:03.812Z",
+      "ageHours": 128.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -49,7 +50,7 @@
       "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
       "ageHours": 50.4
     },
-    "score": 8.89,
+    "score": 8.99,
     "wildcard": false,
     "weekday": "Wed",
     "hookStyle": "relatable"
@@ -83,13 +84,14 @@
     "metrics": {
       "reactions": 2,
       "comments": 0,
+      "engagementRate": 28.57,
       "views": 19,
       "shares": 0,
       "saves": 0,
       "follows": 0,
       "reach": 7,
-      "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
-      "ageHours": 80.0
+      "metricsUpdatedAt": "2026-11-23T19:11:03.787Z",
+      "ageHours": 104.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -105,7 +107,7 @@
       "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
       "ageHours": 56.0
     },
-    "score": 10.48,
+    "score": 10.75,
     "weekday": "Thu"
   },
   {
@@ -133,13 +135,14 @@
     "metrics": {
       "reactions": 0,
       "comments": 0,
-      "views": 10,
+      "engagementRate": 0,
+      "views": 11,
       "shares": 0,
       "saves": 0,
       "follows": 0,
       "reach": 4,
-      "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
-      "ageHours": 53.9
+      "metricsUpdatedAt": "2026-11-23T19:11:03.810Z",
+      "ageHours": 77.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -153,7 +156,7 @@
       "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
       "ageHours": 53.9
     },
-    "score": 8.86,
+    "score": 9.14,
     "weekday": "Fri"
   },
   {
@@ -188,15 +191,30 @@
     "metrics": {
       "reactions": 1,
       "comments": 0,
-      "views": 12,
+      "engagementRate": 25,
+      "views": 15,
       "shares": 0,
       "saves": 0,
       "follows": 0,
       "reach": 4,
-      "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
-      "ageHours": 32.1
+      "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
+      "ageHours": 56.1
     },
-    "sentAt": "2026-11-21T17:03:02.697Z"
+    "sentAt": "2026-11-21T17:03:02.697Z",
+    "metrics48h": {
+      "reactions": 1,
+      "comments": 0,
+      "engagementRate": 25,
+      "views": 15,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 4,
+      "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
+      "ageHours": 56.1
+    },
+    "score": 10.1,
+    "weekday": "Sat"
   },
   {
     "date": "2026-11-22",
@@ -231,13 +249,14 @@
     "metrics": {
       "reactions": 0,
       "comments": 0,
-      "views": 3,
+      "engagementRate": 0,
+      "views": 17,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 2,
-      "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
-      "ageHours": 8.1
+      "reach": 5,
+      "metricsUpdatedAt": "2026-11-23T19:11:03.784Z",
+      "ageHours": 32.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z"
   },
@@ -267,9 +286,22 @@
       "#smallbusinessowner"
     ],
     "mode": "explore",
-    "status": "scheduled",
+    "status": "sent",
     "bufferPostId": "6b02948b02479690922ebd68",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l03.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l03.jpg",
+    "metrics": {
+      "reactions": 3,
+      "comments": 0,
+      "engagementRate": 13.33,
+      "views": 94,
+      "shares": 1,
+      "saves": 0,
+      "follows": 0,
+      "reach": 30,
+      "metricsUpdatedAt": "2026-11-23T19:11:03.775Z",
+      "ageHours": 8.0
+    },
+    "sentAt": "2026-11-23T17:07:15.385Z"
   },
   {
     "date": "2026-11-24",
