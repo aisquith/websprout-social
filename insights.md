@@ -1,12 +1,12 @@
 # Websprout Instagram insights
 
-Updated: 2026-11-23 (Chicago)
+Updated: 2026-11-24 (Chicago)
 
 - Only 4 posts are 48h+ old, so every pattern here is tentative.
 - The dog-grooming devices post (mobile angle, forest) is still the leader and the only post that has earned follows or shares.
 - Landscaping, plumber, coffee before/after and the receipt wildcard reached very few people; too young or too small to judge.
 - Reach is tiny overall, so variety across format and palette matters more than chasing one format.
-- Plan: Nov 24 (yoga browser, coral) is already scheduled. Keep varying format and palette; revisit at 8 measured posts.
+- Plan: Nov 24 (yoga browser, coral) is scheduled; Nov 25 is the barber phone post (navy, mobile angle, Wednesday default) to differ in format and palette. Keep varying format and palette; revisit at 8 measured posts.
 
 <!-- auto:start (written by analytics.py; do not edit by hand) -->
 ## Numbers (2026-11-24)

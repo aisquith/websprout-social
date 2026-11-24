@@ -35,7 +35,7 @@
       "follows": 2,
       "reach": 206,
       "metricsUpdatedAt": "2026-11-23T19:11:03.812Z",
-      "ageHours": 128.0
+      "ageHours": 134.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -91,7 +91,7 @@
       "follows": 0,
       "reach": 7,
       "metricsUpdatedAt": "2026-11-23T19:11:03.787Z",
-      "ageHours": 104.0
+      "ageHours": 110.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -142,7 +142,7 @@
       "follows": 0,
       "reach": 4,
       "metricsUpdatedAt": "2026-11-23T19:11:03.810Z",
-      "ageHours": 77.9
+      "ageHours": 83.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -198,7 +198,7 @@
       "follows": 0,
       "reach": 4,
       "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
-      "ageHours": 56.1
+      "ageHours": 62.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -256,7 +256,7 @@
       "follows": 0,
       "reach": 5,
       "metricsUpdatedAt": "2026-11-23T19:11:03.784Z",
-      "ageHours": 32.1
+      "ageHours": 38.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z"
   },
@@ -299,7 +299,7 @@
       "follows": 0,
       "reach": 30,
       "metricsUpdatedAt": "2026-11-23T19:11:03.775Z",
-      "ageHours": 8.0
+      "ageHours": 14.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z"
   },
@@ -332,5 +332,35 @@
     "status": "scheduled",
     "bufferPostId": "6b03e66cf7628650812e0eb7",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l09.jpg"
+  },
+  {
+    "date": "2026-11-25",
+    "libraryId": "l10",
+    "type": "Barber shop",
+    "category": "beauty",
+    "name": "Old Town Barber Co.",
+    "city": "Chicago",
+    "headline": "Built for the phone in their pocket.",
+    "headlineStyle": "statement",
+    "angle": "mobile",
+    "format": "phone",
+    "palette": "navy",
+    "wildcard": false,
+    "captionHook": "Think about the last time you looked up a business. Phone in hand, right?",
+    "hookStyle": "relatable",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#barbershop",
+      "#chicago",
+      "#mobilefriendly",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "default",
+    "status": "scheduled",
+    "bufferPostId": "6b0537b6f1f043512329b4c6",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l10.jpg"
   }
 ]
