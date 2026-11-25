@@ -34,8 +34,8 @@
       "saves": 0,
       "follows": 2,
       "reach": 206,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.812Z",
-      "ageHours": 134.0
+      "metricsUpdatedAt": "2026-11-24T19:14:22.218Z",
+      "ageHours": 152.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -50,7 +50,7 @@
       "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
       "ageHours": 50.4
     },
-    "score": 8.99,
+    "score": 8.83,
     "wildcard": false,
     "weekday": "Wed",
     "hookStyle": "relatable"
@@ -90,8 +90,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 7,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.787Z",
-      "ageHours": 110.0
+      "metricsUpdatedAt": "2026-11-24T19:14:22.213Z",
+      "ageHours": 128.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -107,7 +107,7 @@
       "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
       "ageHours": 56.0
     },
-    "score": 10.75,
+    "score": 10.29,
     "weekday": "Thu"
   },
   {
@@ -136,13 +136,13 @@
       "reactions": 0,
       "comments": 0,
       "engagementRate": 0,
-      "views": 11,
+      "views": 13,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 4,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.810Z",
-      "ageHours": 83.9
+      "reach": 6,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.221Z",
+      "ageHours": 101.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -156,7 +156,7 @@
       "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
       "ageHours": 53.9
     },
-    "score": 9.14,
+    "score": 8.5,
     "weekday": "Fri"
   },
   {
@@ -191,14 +191,14 @@
     "metrics": {
       "reactions": 1,
       "comments": 0,
-      "engagementRate": 25,
-      "views": 15,
+      "engagementRate": 16.67,
+      "views": 17,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 4,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
-      "ageHours": 62.1
+      "reach": 6,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.211Z",
+      "ageHours": 80.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -213,7 +213,7 @@
       "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
       "ageHours": 56.1
     },
-    "score": 10.1,
+    "score": 9.45,
     "weekday": "Sat"
   },
   {
@@ -250,15 +250,29 @@
       "reactions": 0,
       "comments": 0,
       "engagementRate": 0,
-      "views": 17,
+      "views": 21,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 5,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.784Z",
-      "ageHours": 38.1
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.216Z",
+      "ageHours": 56.1
     },
-    "sentAt": "2026-11-22T17:02:42.331Z"
+    "sentAt": "2026-11-22T17:02:42.331Z",
+    "metrics48h": {
+      "reactions": 0,
+      "comments": 0,
+      "engagementRate": 0,
+      "views": 21,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.216Z",
+      "ageHours": 56.1
+    },
+    "score": 8.35,
+    "weekday": "Sun"
   },
   {
     "date": "2026-11-23",
@@ -292,14 +306,14 @@
     "metrics": {
       "reactions": 3,
       "comments": 0,
-      "engagementRate": 13.33,
-      "views": 94,
+      "engagementRate": 2.86,
+      "views": 236,
       "shares": 1,
       "saves": 0,
       "follows": 0,
-      "reach": 30,
-      "metricsUpdatedAt": "2026-11-23T19:11:03.775Z",
-      "ageHours": 14.0
+      "reach": 140,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.206Z",
+      "ageHours": 32.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z"
   },
@@ -329,9 +343,22 @@
       "#smallbusinessowner"
     ],
     "mode": "default",
-    "status": "scheduled",
+    "status": "sent",
     "bufferPostId": "6b03e66cf7628650812e0eb7",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l09.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l09.jpg",
+    "metrics": {
+      "reactions": 0,
+      "comments": 0,
+      "engagementRate": 0,
+      "views": 1,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 1,
+      "metricsUpdatedAt": "2026-11-24T19:14:22.223Z",
+      "ageHours": 8.0
+    },
+    "sentAt": "2026-11-24T17:08:58.076Z"
   },
   {
     "date": "2026-11-25",
