@@ -5,7 +5,7 @@ Updated: 2026-11-25 (Chicago)
 - Only 5 posts are 48h+ old, so every pattern here is tentative.
 - The devices layout in forest green still leads and is the only style that has earned follows or shares.
 - Most other formats and palettes are under-tested, so upcoming posts keep rotating layouts and colours rather than repeating.
-- Tomorrow's post is already scheduled (barber shop, phone layout, navy); nothing new was needed this run.
+- Thursday 2026-11-26 is scheduled (food truck, scroll layout, sun yellow, free angle); layouts and colours keep rotating.
 
 <!-- auto:start (written by analytics.py; do not edit by hand) -->
 ## Numbers (2026-11-25)

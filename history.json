@@ -389,5 +389,35 @@
     "status": "scheduled",
     "bufferPostId": "6b0537b6f1f043512329b4c6",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l10.jpg"
+  },
+  {
+    "date": "2026-11-26",
+    "libraryId": "l11",
+    "type": "Food truck",
+    "category": "food",
+    "name": "Mesquite Moon Tacos",
+    "city": "San Antonio",
+    "headline": "Food truck website. Free to publish.",
+    "headlineStyle": "statement",
+    "angle": "free",
+    "format": "scroll",
+    "palette": "sun",
+    "wildcard": false,
+    "captionHook": "One website. Zero dollars to publish. Sound too good for a food truck?",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#foodtruck",
+      "#sanantonio",
+      "#tacotruck",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "default",
+    "status": "scheduled",
+    "bufferPostId": "6b068937c68d7845a48d3a6d",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l11.jpg"
   }
 ]
