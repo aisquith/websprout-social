@@ -35,7 +35,7 @@
       "follows": 2,
       "reach": 207,
       "metricsUpdatedAt": "2026-11-25T19:14:32.441Z",
-      "ageHours": 176.0
+      "ageHours": 182.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -103,7 +103,7 @@
       "follows": 0,
       "reach": 8,
       "metricsUpdatedAt": "2026-11-25T19:14:32.424Z",
-      "ageHours": 152.0
+      "ageHours": 158.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -154,7 +154,7 @@
       "follows": 0,
       "reach": 7,
       "metricsUpdatedAt": "2026-11-25T19:14:32.426Z",
-      "ageHours": 125.9
+      "ageHours": 131.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -210,7 +210,7 @@
       "follows": 0,
       "reach": 7,
       "metricsUpdatedAt": "2026-11-25T19:14:32.439Z",
-      "ageHours": 104.1
+      "ageHours": 110.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -268,7 +268,7 @@
       "follows": 0,
       "reach": 9,
       "metricsUpdatedAt": "2026-11-25T19:14:32.458Z",
-      "ageHours": 80.1
+      "ageHours": 86.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z",
     "metrics48h": {
@@ -325,7 +325,7 @@
       "follows": 0,
       "reach": 140,
       "metricsUpdatedAt": "2026-11-25T19:14:32.445Z",
-      "ageHours": 56.0
+      "ageHours": 62.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z",
     "metrics48h": {
@@ -382,7 +382,7 @@
       "follows": 0,
       "reach": 5,
       "metricsUpdatedAt": "2026-11-25T19:14:32.434Z",
-      "ageHours": 32.0
+      "ageHours": 38.0
     },
     "sentAt": "2026-11-24T17:08:58.076Z"
   },
@@ -425,7 +425,7 @@
       "follows": 2,
       "reach": 82,
       "metricsUpdatedAt": "2026-11-25T19:14:32.428Z",
-      "ageHours": 8.0
+      "ageHours": 14.0
     },
     "sentAt": "2026-11-25T17:06:31.692Z"
   },
@@ -458,5 +458,35 @@
     "status": "scheduled",
     "bufferPostId": "6b068937c68d7845a48d3a6d",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l11.jpg"
+  },
+  {
+    "date": "2026-11-27",
+    "libraryId": "l12",
+    "type": "House cleaner",
+    "category": "trades",
+    "name": "Sparkle & Co. Cleaning",
+    "city": "Atlanta",
+    "headline": "3 things every cleaning business website needs",
+    "headlineStyle": "tip list",
+    "angle": "trade-callout",
+    "format": "text",
+    "palette": "cream",
+    "wildcard": false,
+    "captionHook": "Running a cleaning business? Here are 3 things customers look for before they call.",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#cleaningbusiness",
+      "#housecleaning",
+      "#atlanta",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "default",
+    "status": "scheduled",
+    "bufferPostId": "6b07da9c7cb39d7aa35966d0",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l12.jpg"
   }
 ]

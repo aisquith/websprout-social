@@ -6,7 +6,7 @@ Updated: 2026-11-26 (Chicago)
 - Devices layout in forest green still leads; it earned the only follows (2, from the dog grooming post) and a share.
 - Reach varies hugely (7 to 207), so scores on low-reach posts are noisy. Mobile-angle posts reached the most people.
 - No saves or comments to speak of yet; a wildcard question post (A or B) may help invite comments.
-- Friday 2026-11-27 is already covered by rotation; layouts and colours keep varying.
+- Friday 2026-11-27: tip-list (text) layout in cream, trade-callout angle, an untested format and palette, to keep the feed varied.
 
 <!-- auto:start (written by analytics.py; do not edit by hand) -->
 ## Numbers (2026-11-26)
