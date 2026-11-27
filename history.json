@@ -34,8 +34,8 @@
       "saves": 0,
       "follows": 2,
       "reach": 207,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.441Z",
-      "ageHours": 182.0
+      "metricsUpdatedAt": "2026-11-26T19:15:41.483Z",
+      "ageHours": 203.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -50,7 +50,7 @@
       "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
       "ageHours": 50.4
     },
-    "score": 8.19,
+    "score": 8.44,
     "wildcard": false,
     "weekday": "Wed",
     "hookStyle": "relatable",
@@ -102,8 +102,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 8,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.424Z",
-      "ageHours": 158.0
+      "metricsUpdatedAt": "2026-11-26T19:15:41.477Z",
+      "ageHours": 179.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -119,8 +119,20 @@
       "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
       "ageHours": 56.0
     },
-    "score": 8.47,
-    "weekday": "Thu"
+    "score": 9.17,
+    "weekday": "Thu",
+    "metrics7d": {
+      "reactions": 2,
+      "comments": 0,
+      "engagementRate": 25,
+      "views": 21,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.477Z",
+      "ageHours": 179.0
+    }
   },
   {
     "date": "2026-11-20",
@@ -145,16 +157,16 @@
     "hookStyle": "statement",
     "wildcard": false,
     "metrics": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
-      "engagementRate": 0,
-      "views": 15,
+      "engagementRate": 12.5,
+      "views": 16,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 7,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.426Z",
-      "ageHours": 131.9
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.486Z",
+      "ageHours": 152.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -168,7 +180,7 @@
       "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
       "ageHours": 53.9
     },
-    "score": 6.68,
+    "score": 8.25,
     "weekday": "Fri"
   },
   {
@@ -203,14 +215,14 @@
     "metrics": {
       "reactions": 1,
       "comments": 0,
-      "engagementRate": 14.29,
-      "views": 19,
+      "engagementRate": 11.11,
+      "views": 21,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 7,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.439Z",
-      "ageHours": 110.1
+      "reach": 9,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.488Z",
+      "ageHours": 131.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -225,7 +237,7 @@
       "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
       "ageHours": 56.1
     },
-    "score": 7.61,
+    "score": 8.17,
     "weekday": "Sat"
   },
   {
@@ -259,16 +271,16 @@
     "bufferPostId": "6b01431edd205ed779c76a33",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-22.jpg",
     "metrics": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
-      "engagementRate": 0,
-      "views": 23,
+      "engagementRate": 9.09,
+      "views": 25,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 9,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.458Z",
-      "ageHours": 86.1
+      "reach": 11,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.466Z",
+      "ageHours": 107.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z",
     "metrics48h": {
@@ -283,7 +295,7 @@
       "metricsUpdatedAt": "2026-11-24T19:14:22.216Z",
       "ageHours": 56.1
     },
-    "score": 6.55,
+    "score": 8.03,
     "weekday": "Sun"
   },
   {
@@ -316,16 +328,16 @@
     "bufferPostId": "6b02948b02479690922ebd68",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l03.jpg",
     "metrics": {
-      "reactions": 3,
+      "reactions": 4,
       "comments": 0,
-      "engagementRate": 2.86,
-      "views": 238,
+      "engagementRate": 3.55,
+      "views": 240,
       "shares": 1,
       "saves": 0,
       "follows": 0,
-      "reach": 140,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.445Z",
-      "ageHours": 62.0
+      "reach": 141,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.495Z",
+      "ageHours": 83.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z",
     "metrics48h": {
@@ -340,7 +352,7 @@
       "metricsUpdatedAt": "2026-11-25T19:14:32.445Z",
       "ageHours": 56.0
     },
-    "score": 5.48,
+    "score": 6.19,
     "weekday": "Mon"
   },
   {
@@ -373,18 +385,32 @@
     "bufferPostId": "6b03e66cf7628650812e0eb7",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l09.jpg",
     "metrics": {
-      "reactions": 0,
+      "reactions": 1,
       "comments": 0,
-      "engagementRate": 0,
-      "views": 10,
+      "engagementRate": 12.5,
+      "views": 18,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 5,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.434Z",
-      "ageHours": 38.0
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.491Z",
+      "ageHours": 59.0
     },
-    "sentAt": "2026-11-24T17:08:58.076Z"
+    "sentAt": "2026-11-24T17:08:58.076Z",
+    "metrics48h": {
+      "reactions": 1,
+      "comments": 0,
+      "engagementRate": 12.5,
+      "views": 18,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.491Z",
+      "ageHours": 59.0
+    },
+    "score": 8.25,
+    "weekday": "Tue"
   },
   {
     "date": "2026-11-25",
@@ -416,16 +442,16 @@
     "bufferPostId": "6b0537b6f1f043512329b4c6",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l10.jpg",
     "metrics": {
-      "reactions": 4,
+      "reactions": 5,
       "comments": 0,
-      "engagementRate": 6.1,
-      "views": 164,
+      "engagementRate": 3.53,
+      "views": 300,
       "shares": 1,
       "saves": 0,
       "follows": 2,
-      "reach": 82,
-      "metricsUpdatedAt": "2026-11-25T19:14:32.428Z",
-      "ageHours": 14.0
+      "reach": 170,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.469Z",
+      "ageHours": 35.0
     },
     "sentAt": "2026-11-25T17:06:31.692Z"
   },
@@ -455,9 +481,22 @@
       "#smallbusinessowner"
     ],
     "mode": "default",
-    "status": "scheduled",
+    "status": "sent",
     "bufferPostId": "6b068937c68d7845a48d3a6d",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l11.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l11.jpg",
+    "metrics": {
+      "reactions": 1,
+      "comments": 0,
+      "engagementRate": 50,
+      "views": 6,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 2,
+      "metricsUpdatedAt": "2026-11-26T19:15:41.501Z",
+      "ageHours": 11.0
+    },
+    "sentAt": "2026-11-26T17:05:24.470Z"
   },
   {
     "date": "2026-11-27",

@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-26T07:06+00:00",
-  "measuredPosts": 6,
+  "updated": "2026-11-27T04:06+00:00",
+  "measuredPosts": 7,
   "tentative": true,
   "accountAverage": {
-    "score": 7.14,
-    "reach": 63
+    "score": 7.91,
+    "reach": 56
   },
   "posts": [
     {
@@ -16,7 +16,7 @@
       "concept": null,
       "headline": "A free website for your landscaping business.",
       "captionHook": "Want a website without paying for one first? You can publish free.",
-      "score": 8.47,
+      "score": 9.17,
       "reach": 8,
       "reactions": 2,
       "comments": 0,
@@ -34,7 +34,7 @@
       "concept": null,
       "headline": "Book your groomer from your phone.",
       "captionHook": "If you can text, you can run your business website.",
-      "score": 8.19,
+      "score": 8.44,
       "reach": 207,
       "reactions": 3,
       "comments": 1,
@@ -42,24 +42,6 @@
       "shares": 1,
       "follows": 2,
       "views": 365
-    },
-    {
-      "date": "2026-11-21",
-      "type": "Coffee shop",
-      "format": "beforeafter",
-      "palette": "navy",
-      "angle": "before-after",
-      "concept": null,
-      "headline": "From a Facebook page to a real website.",
-      "captionHook": "Is your coffee shop still just a Facebook page?",
-      "score": 7.61,
-      "reach": 7,
-      "reactions": 1,
-      "comments": 0,
-      "saves": 0,
-      "shares": 0,
-      "follows": 0,
-      "views": 19
     },
     {
       "date": "2026-11-20",
@@ -70,14 +52,50 @@
       "concept": null,
       "headline": "Plumbers: your website is ready.",
       "captionHook": "Plumbers: your website is ready.",
-      "score": 6.68,
-      "reach": 7,
-      "reactions": 0,
+      "score": 8.25,
+      "reach": 8,
+      "reactions": 1,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "views": 15
+      "views": 16
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Yoga studio",
+      "format": "browser",
+      "palette": "coral",
+      "angle": "no-designer",
+      "concept": null,
+      "headline": "Still waiting on a web designer?",
+      "captionHook": "Your studio can have a real website before your next class starts.",
+      "score": 8.25,
+      "reach": 8,
+      "reactions": 1,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "views": 18
+    },
+    {
+      "date": "2026-11-21",
+      "type": "Coffee shop",
+      "format": "beforeafter",
+      "palette": "navy",
+      "angle": "before-after",
+      "concept": null,
+      "headline": "From a Facebook page to a real website.",
+      "captionHook": "Is your coffee shop still just a Facebook page?",
+      "score": 8.17,
+      "reach": 9,
+      "reactions": 1,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "views": 21
     },
     {
       "date": "2026-11-22",
@@ -88,14 +106,14 @@
       "concept": "receipt-zero",
       "headline": "The line on your start-up receipt that costs $0.",
       "captionHook": "Quick quiz: which line on a new business's start-up receipt costs $0?",
-      "score": 6.55,
-      "reach": 9,
-      "reactions": 0,
+      "score": 8.03,
+      "reach": 11,
+      "reactions": 1,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "views": 23
+      "views": 25
     },
     {
       "date": "2026-11-23",
@@ -106,14 +124,14 @@
       "concept": null,
       "headline": "Looks great on every phone.",
       "captionHook": "Most of your customers will find you on their phone. What do they see?",
-      "score": 5.48,
-      "reach": 140,
-      "reactions": 3,
+      "score": 6.19,
+      "reach": 141,
+      "reactions": 4,
       "comments": 0,
       "saves": 0,
       "shares": 1,
       "follows": 0,
-      "views": 238
+      "views": 240
     }
   ],
   "dimensions": {
@@ -122,7 +140,7 @@
         {
           "value": "devices",
           "n": 3,
-          "avgScore": 7.78,
+          "avgScore": 8.62,
           "avgReach": 74,
           "follows": 2,
           "saves": 0,
@@ -130,10 +148,20 @@
           "comments": 1
         },
         {
+          "value": "browser",
+          "n": 1,
+          "avgScore": 8.25,
+          "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "beforeafter",
           "n": 1,
-          "avgScore": 7.61,
-          "avgReach": 7,
+          "avgScore": 8.17,
+          "avgReach": 9,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -142,8 +170,8 @@
         {
           "value": "custom",
           "n": 1,
-          "avgScore": 6.55,
-          "avgReach": 9,
+          "avgScore": 8.03,
+          "avgReach": 11,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -152,8 +180,8 @@
         {
           "value": "scroll",
           "n": 1,
-          "avgScore": 5.48,
-          "avgReach": 140,
+          "avgScore": 6.19,
+          "avgReach": 141,
           "follows": 0,
           "saves": 0,
           "shares": 1,
@@ -176,7 +204,7 @@
         {
           "value": "forest",
           "n": 3,
-          "avgScore": 7.78,
+          "avgScore": 8.62,
           "avgReach": 74,
           "follows": 2,
           "saves": 0,
@@ -184,10 +212,20 @@
           "comments": 1
         },
         {
+          "value": "coral",
+          "n": 1,
+          "avgScore": 8.25,
+          "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "navy",
           "n": 1,
-          "avgScore": 7.61,
-          "avgReach": 7,
+          "avgScore": 8.17,
+          "avgReach": 9,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -196,8 +234,8 @@
         {
           "value": "cream",
           "n": 1,
-          "avgScore": 6.55,
-          "avgReach": 9,
+          "avgScore": 8.03,
+          "avgReach": 11,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -206,8 +244,8 @@
         {
           "value": "sage",
           "n": 1,
-          "avgScore": 5.48,
-          "avgReach": 140,
+          "avgScore": 6.19,
+          "avgReach": 141,
           "follows": 0,
           "saves": 0,
           "shares": 1,
@@ -227,20 +265,40 @@
     "angle": {
       "rows": [
         {
-          "value": "before-after",
-          "n": 1,
-          "avgScore": 7.61,
-          "avgReach": 7,
+          "value": "free",
+          "n": 2,
+          "avgScore": 8.6,
+          "avgReach": 10,
           "follows": 0,
           "saves": 0,
           "shares": 0,
           "comments": 0
         },
         {
-          "value": "free",
-          "n": 2,
-          "avgScore": 7.51,
+          "value": "trade-callout",
+          "n": 1,
+          "avgScore": 8.25,
           "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
+          "value": "no-designer",
+          "n": 1,
+          "avgScore": 8.25,
+          "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
+          "value": "before-after",
+          "n": 1,
+          "avgScore": 8.17,
+          "avgReach": 9,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -249,22 +307,12 @@
         {
           "value": "mobile",
           "n": 2,
-          "avgScore": 6.83,
+          "avgScore": 7.31,
           "avgReach": 174,
           "follows": 2,
           "saves": 0,
           "shares": 2,
           "comments": 1
-        },
-        {
-          "value": "trade-callout",
-          "n": 1,
-          "avgScore": 6.68,
-          "avgReach": 7,
-          "follows": 0,
-          "saves": 0,
-          "shares": 0,
-          "comments": 0
         }
       ],
       "best": "free",
@@ -280,9 +328,19 @@
     "category": {
       "rows": [
         {
+          "value": "trades",
+          "n": 3,
+          "avgScore": 8.48,
+          "avgReach": 9,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
           "value": "pets",
           "n": 1,
-          "avgScore": 8.19,
+          "avgScore": 8.44,
           "avgReach": 207,
           "follows": 2,
           "saves": 0,
@@ -290,9 +348,9 @@
           "comments": 1
         },
         {
-          "value": "trades",
-          "n": 3,
-          "avgScore": 7.23,
+          "value": "beauty",
+          "n": 1,
+          "avgScore": 8.25,
           "avgReach": 8,
           "follows": 0,
           "saves": 0,
@@ -302,8 +360,8 @@
         {
           "value": "food",
           "n": 2,
-          "avgScore": 6.54,
-          "avgReach": 74,
+          "avgScore": 7.18,
+          "avgReach": 75,
           "follows": 0,
           "saves": 0,
           "shares": 1,
@@ -319,7 +377,7 @@
         {
           "value": "benefit",
           "n": 2,
-          "avgScore": 8.33,
+          "avgScore": 8.8,
           "avgReach": 108,
           "follows": 2,
           "saves": 0,
@@ -329,8 +387,18 @@
         {
           "value": "trade call-out",
           "n": 1,
-          "avgScore": 6.68,
-          "avgReach": 7,
+          "avgScore": 8.25,
+          "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
+          "value": "question",
+          "n": 1,
+          "avgScore": 8.25,
+          "avgReach": 8,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -339,8 +407,8 @@
         {
           "value": "statement",
           "n": 3,
-          "avgScore": 6.55,
-          "avgReach": 52,
+          "avgScore": 7.46,
+          "avgReach": 54,
           "follows": 0,
           "saves": 0,
           "shares": 1,
@@ -356,7 +424,7 @@
         {
           "value": "relatable",
           "n": 1,
-          "avgScore": 8.19,
+          "avgScore": 8.44,
           "avgReach": 207,
           "follows": 2,
           "saves": 0,
@@ -364,30 +432,29 @@
           "comments": 1
         },
         {
-          "value": "question",
-          "n": 4,
-          "avgScore": 7.03,
-          "avgReach": 41,
-          "follows": 0,
-          "saves": 0,
-          "shares": 1,
-          "comments": 0
-        },
-        {
           "value": "statement",
-          "n": 1,
-          "avgScore": 6.68,
-          "avgReach": 7,
+          "n": 2,
+          "avgScore": 8.25,
+          "avgReach": 8,
           "follows": 0,
           "saves": 0,
           "shares": 0,
           "comments": 0
+        },
+        {
+          "value": "question",
+          "n": 4,
+          "avgScore": 7.89,
+          "avgReach": 42,
+          "follows": 0,
+          "saves": 0,
+          "shares": 1,
+          "comments": 0
         }
       ],
-      "best": "question",
+      "best": "statement",
       "bestForReach": "question",
       "underTested": [
-        "statement",
         "number",
         "relatable",
         "how-to"
@@ -397,9 +464,9 @@
       "rows": [
         {
           "value": "false",
-          "n": 5,
-          "avgScore": 7.29,
-          "avgReach": 74,
+          "n": 6,
+          "avgScore": 8.08,
+          "avgReach": 64,
           "follows": 2,
           "saves": 0,
           "shares": 2,
@@ -408,8 +475,8 @@
         {
           "value": "true",
           "n": 1,
-          "avgScore": 6.55,
-          "avgReach": 9,
+          "avgScore": 8.03,
+          "avgReach": 11,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -425,8 +492,8 @@
         {
           "value": "receipt-zero",
           "n": 1,
-          "avgScore": 6.55,
-          "avgReach": 9,
+          "avgScore": 8.03,
+          "avgReach": 11,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -442,7 +509,7 @@
         {
           "value": "Thu",
           "n": 1,
-          "avgScore": 8.47,
+          "avgScore": 9.17,
           "avgReach": 8,
           "follows": 0,
           "saves": 0,
@@ -452,7 +519,7 @@
         {
           "value": "Wed",
           "n": 1,
-          "avgScore": 8.19,
+          "avgScore": 8.44,
           "avgReach": 207,
           "follows": 2,
           "saves": 0,
@@ -460,20 +527,30 @@
           "comments": 1
         },
         {
-          "value": "Sat",
+          "value": "Fri",
           "n": 1,
-          "avgScore": 7.61,
-          "avgReach": 7,
+          "avgScore": 8.25,
+          "avgReach": 8,
           "follows": 0,
           "saves": 0,
           "shares": 0,
           "comments": 0
         },
         {
-          "value": "Fri",
+          "value": "Tue",
           "n": 1,
-          "avgScore": 6.68,
-          "avgReach": 7,
+          "avgScore": 8.25,
+          "avgReach": 8,
+          "follows": 0,
+          "saves": 0,
+          "shares": 0,
+          "comments": 0
+        },
+        {
+          "value": "Sat",
+          "n": 1,
+          "avgScore": 8.17,
+          "avgReach": 9,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -482,8 +559,8 @@
         {
           "value": "Sun",
           "n": 1,
-          "avgScore": 6.55,
-          "avgReach": 9,
+          "avgScore": 8.03,
+          "avgReach": 11,
           "follows": 0,
           "saves": 0,
           "shares": 0,
@@ -492,8 +569,8 @@
         {
           "value": "Mon",
           "n": 1,
-          "avgScore": 5.48,
-          "avgReach": 140,
+          "avgScore": 6.19,
+          "avgReach": 141,
           "follows": 0,
           "saves": 0,
           "shares": 1,
@@ -510,7 +587,7 @@
       "date": "2026-11-22",
       "concept": "receipt-zero",
       "template": "templates/receipt-zero.html",
-      "score": 6.55
+      "score": 8.03
     }
   ]
 }
