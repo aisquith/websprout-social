@@ -527,5 +527,35 @@
     "status": "scheduled",
     "bufferPostId": "6b07da9c7cb39d7aa35966d0",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l12.jpg"
+  },
+  {
+    "date": "2026-11-28",
+    "libraryId": "l13",
+    "type": "Photographer",
+    "category": "services",
+    "name": "Northlight Photography",
+    "city": "Minneapolis",
+    "headline": "From Instagram-only to a real website.",
+    "headlineStyle": "statement",
+    "angle": "before-after",
+    "format": "beforeafter",
+    "palette": "forest",
+    "wildcard": false,
+    "captionHook": "Your Instagram page is a great start, but it isn't a website.",
+    "hookStyle": "statement",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#photographer",
+      "#photographybusiness",
+      "#minneapolis",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "explore",
+    "status": "scheduled",
+    "bufferPostId": "6b092c22776ce21276f49e60",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l13.jpg"
   }
 ]
