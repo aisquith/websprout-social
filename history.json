@@ -596,5 +596,36 @@
     "status": "scheduled",
     "bufferPostId": "6b092c22776ce21276f49e60",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l13.jpg"
+  },
+  {
+    "date": "2026-11-29",
+    "type": "Dog groomer",
+    "category": "pets",
+    "name": "Sunny Side Dog Grooming",
+    "city": "Tampa",
+    "headline": "Which homepage would you click?",
+    "headlineStyle": "question",
+    "angle": "engagement",
+    "format": "custom",
+    "palette": "sun",
+    "wildcard": true,
+    "concept": "a-or-b",
+    "template": "templates/a-or-b.html",
+    "captionHook": "Be honest: which homepage would you click, A or B?",
+    "hookStyle": "question",
+    "hashtags": [
+      "#smallbusiness",
+      "#websitedesign",
+      "#doggrooming",
+      "#petbusiness",
+      "#tampa",
+      "#localbusiness",
+      "#freewebsite",
+      "#smallbusinessowner"
+    ],
+    "mode": "wildcard",
+    "status": "scheduled",
+    "bufferPostId": "6b0a7e61db8a1c14ef10db95",
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/posts/2026-11-29.jpg"
   }
 ]
