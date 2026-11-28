@@ -34,8 +34,8 @@
       "saves": 0,
       "follows": 2,
       "reach": 207,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.483Z",
-      "ageHours": 203.0
+      "metricsUpdatedAt": "2026-11-27T19:18:03.825Z",
+      "ageHours": 224.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -50,7 +50,7 @@
       "metricsUpdatedAt": "2026-11-20T19:09:24.754Z",
       "ageHours": 50.4
     },
-    "score": 8.44,
+    "score": 8.7,
     "wildcard": false,
     "weekday": "Wed",
     "hookStyle": "relatable",
@@ -102,8 +102,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 8,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.477Z",
-      "ageHours": 179.0
+      "metricsUpdatedAt": "2026-11-27T19:18:03.816Z",
+      "ageHours": 200.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -119,7 +119,7 @@
       "metricsUpdatedAt": "2026-11-21T19:10:14.1Z",
       "ageHours": 56.0
     },
-    "score": 9.17,
+    "score": 9.92,
     "weekday": "Thu",
     "metrics7d": {
       "reactions": 2,
@@ -165,8 +165,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 8,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.486Z",
-      "ageHours": 152.9
+      "metricsUpdatedAt": "2026-11-27T19:18:03.811Z",
+      "ageHours": 173.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -180,8 +180,20 @@
       "metricsUpdatedAt": "2026-11-22T19:10:45.4Z",
       "ageHours": 53.9
     },
-    "score": 8.25,
-    "weekday": "Fri"
+    "score": 9.0,
+    "weekday": "Fri",
+    "metrics7d": {
+      "reactions": 1,
+      "comments": 0,
+      "engagementRate": 12.5,
+      "views": 16,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 8,
+      "metricsUpdatedAt": "2026-11-27T19:18:03.811Z",
+      "ageHours": 173.9
+    }
   },
   {
     "date": "2026-11-21",
@@ -221,8 +233,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 9,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.488Z",
-      "ageHours": 131.1
+      "metricsUpdatedAt": "2026-11-27T19:18:03.834Z",
+      "ageHours": 152.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -237,7 +249,7 @@
       "metricsUpdatedAt": "2026-11-23T19:11:03.794Z",
       "ageHours": 56.1
     },
-    "score": 8.17,
+    "score": 8.92,
     "weekday": "Sat"
   },
   {
@@ -279,8 +291,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 11,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.466Z",
-      "ageHours": 107.1
+      "metricsUpdatedAt": "2026-11-27T19:18:03.827Z",
+      "ageHours": 128.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z",
     "metrics48h": {
@@ -295,7 +307,7 @@
       "metricsUpdatedAt": "2026-11-24T19:14:22.216Z",
       "ageHours": 56.1
     },
-    "score": 8.03,
+    "score": 8.76,
     "weekday": "Sun"
   },
   {
@@ -336,8 +348,8 @@
       "saves": 0,
       "follows": 0,
       "reach": 141,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.495Z",
-      "ageHours": 83.0
+      "metricsUpdatedAt": "2026-11-27T19:18:03.806Z",
+      "ageHours": 104.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z",
     "metrics48h": {
@@ -352,7 +364,7 @@
       "metricsUpdatedAt": "2026-11-25T19:14:32.445Z",
       "ageHours": 56.0
     },
-    "score": 6.19,
+    "score": 6.52,
     "weekday": "Mon"
   },
   {
@@ -388,13 +400,13 @@
       "reactions": 1,
       "comments": 0,
       "engagementRate": 12.5,
-      "views": 18,
+      "views": 19,
       "shares": 0,
       "saves": 0,
       "follows": 0,
       "reach": 8,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.491Z",
-      "ageHours": 59.0
+      "metricsUpdatedAt": "2026-11-27T19:18:03.839Z",
+      "ageHours": 80.0
     },
     "sentAt": "2026-11-24T17:08:58.076Z",
     "metrics48h": {
@@ -409,7 +421,7 @@
       "metricsUpdatedAt": "2026-11-26T19:15:41.491Z",
       "ageHours": 59.0
     },
-    "score": 8.25,
+    "score": 9.0,
     "weekday": "Tue"
   },
   {
@@ -445,15 +457,29 @@
       "reactions": 5,
       "comments": 0,
       "engagementRate": 3.53,
-      "views": 300,
+      "views": 302,
       "shares": 1,
       "saves": 0,
       "follows": 2,
       "reach": 170,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.469Z",
-      "ageHours": 35.0
+      "metricsUpdatedAt": "2026-11-27T19:18:03.808Z",
+      "ageHours": 56.0
     },
-    "sentAt": "2026-11-25T17:06:31.692Z"
+    "sentAt": "2026-11-25T17:06:31.692Z",
+    "metrics48h": {
+      "reactions": 5,
+      "comments": 0,
+      "engagementRate": 3.53,
+      "views": 302,
+      "shares": 1,
+      "saves": 0,
+      "follows": 2,
+      "reach": 170,
+      "metricsUpdatedAt": "2026-11-27T19:18:03.808Z",
+      "ageHours": 56.0
+    },
+    "score": 9.9,
+    "weekday": "Wed"
   },
   {
     "date": "2026-11-26",
@@ -485,16 +511,16 @@
     "bufferPostId": "6b068937c68d7845a48d3a6d",
     "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l11.jpg",
     "metrics": {
-      "reactions": 1,
+      "reactions": 2,
       "comments": 0,
       "engagementRate": 50,
-      "views": 6,
+      "views": 11,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "reach": 2,
-      "metricsUpdatedAt": "2026-11-26T19:15:41.501Z",
-      "ageHours": 11.0
+      "reach": 4,
+      "metricsUpdatedAt": "2026-11-27T19:18:03.833Z",
+      "ageHours": 32.0
     },
     "sentAt": "2026-11-26T17:05:24.470Z"
   },
@@ -524,9 +550,22 @@
       "#smallbusinessowner"
     ],
     "mode": "default",
-    "status": "scheduled",
+    "status": "sent",
     "bufferPostId": "6b07da9c7cb39d7aa35966d0",
-    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l12.jpg"
+    "image": "https://raw.githubusercontent.com/aisquith/websprout-social/main/library/l12.jpg",
+    "metrics": {
+      "reactions": 0,
+      "comments": 0,
+      "engagementRate": 0,
+      "views": 4,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "reach": 4,
+      "metricsUpdatedAt": "2026-11-27T19:18:03.813Z",
+      "ageHours": 8.0
+    },
+    "sentAt": "2026-11-27T17:06:50.195Z"
   },
   {
     "date": "2026-11-28",
