@@ -35,7 +35,7 @@
       "follows": 2,
       "reach": 207,
       "metricsUpdatedAt": "2026-11-27T19:18:03.825Z",
-      "ageHours": 224.0
+      "ageHours": 230.0
     },
     "sentAt": "2026-11-18T17:04:30.338Z",
     "metrics48h": {
@@ -103,7 +103,7 @@
       "follows": 0,
       "reach": 8,
       "metricsUpdatedAt": "2026-11-27T19:18:03.816Z",
-      "ageHours": 200.0
+      "ageHours": 206.0
     },
     "sentAt": "2026-11-19T17:04:48.176Z",
     "hookStyle": "question",
@@ -166,7 +166,7 @@
       "follows": 0,
       "reach": 8,
       "metricsUpdatedAt": "2026-11-27T19:18:03.811Z",
-      "ageHours": 173.9
+      "ageHours": 179.9
     },
     "sentAt": "2026-11-20T19:11:16.411Z",
     "metrics48h": {
@@ -234,7 +234,7 @@
       "follows": 0,
       "reach": 9,
       "metricsUpdatedAt": "2026-11-27T19:18:03.834Z",
-      "ageHours": 152.1
+      "ageHours": 158.1
     },
     "sentAt": "2026-11-21T17:03:02.697Z",
     "metrics48h": {
@@ -292,7 +292,7 @@
       "follows": 0,
       "reach": 11,
       "metricsUpdatedAt": "2026-11-27T19:18:03.827Z",
-      "ageHours": 128.1
+      "ageHours": 134.1
     },
     "sentAt": "2026-11-22T17:02:42.331Z",
     "metrics48h": {
@@ -349,7 +349,7 @@
       "follows": 0,
       "reach": 141,
       "metricsUpdatedAt": "2026-11-27T19:18:03.806Z",
-      "ageHours": 104.0
+      "ageHours": 110.0
     },
     "sentAt": "2026-11-23T17:07:15.385Z",
     "metrics48h": {
@@ -406,7 +406,7 @@
       "follows": 0,
       "reach": 8,
       "metricsUpdatedAt": "2026-11-27T19:18:03.839Z",
-      "ageHours": 80.0
+      "ageHours": 86.0
     },
     "sentAt": "2026-11-24T17:08:58.076Z",
     "metrics48h": {
@@ -463,7 +463,7 @@
       "follows": 2,
       "reach": 170,
       "metricsUpdatedAt": "2026-11-27T19:18:03.808Z",
-      "ageHours": 56.0
+      "ageHours": 62.0
     },
     "sentAt": "2026-11-25T17:06:31.692Z",
     "metrics48h": {
@@ -520,7 +520,7 @@
       "follows": 0,
       "reach": 4,
       "metricsUpdatedAt": "2026-11-27T19:18:03.833Z",
-      "ageHours": 32.0
+      "ageHours": 38.0
     },
     "sentAt": "2026-11-26T17:05:24.470Z"
   },
@@ -563,7 +563,7 @@
       "follows": 0,
       "reach": 4,
       "metricsUpdatedAt": "2026-11-27T19:18:03.813Z",
-      "ageHours": 8.0
+      "ageHours": 14.0
     },
     "sentAt": "2026-11-27T17:06:50.195Z"
   },
